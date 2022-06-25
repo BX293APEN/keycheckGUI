@@ -1,0 +1,5 @@
+/ * 特殊操作 * /
+
+右クリック==pyautogui.hotkey('shift','f10')
+デスクトップ==pyautogui.hotkey('win','d')
+指定位置で右クリック==pyautogui.rightClick(x = 1000, y = 50)
